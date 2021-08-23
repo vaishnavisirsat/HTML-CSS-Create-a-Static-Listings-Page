@@ -1,0 +1,155 @@
+
+body{
+    margin: 0;
+    background: url(pexels-pixabay-372882.jpg) no-repeat center fixed;
+    background-size: cover;
+    background-position: center;
+
+}
+#header{
+    
+    display: flex;
+    height:100px;
+    align-items:auto;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 8px 8px -6px;
+}
+
+.list-nonbullet{ 
+    list-style:none;
+}
+.list-inline{
+    
+    color: white;
+    font-size: 24px;
+    padding: 20px;
+    font-weight: 600;
+    float: left;
+    margin: 0;
+}
+nav{
+    display: inline;
+    width:100%;
+    overflow: auto;
+    background:black;
+}
+
+
+.manu{
+    float: right;
+    margin: 0;
+}
+ul li{
+    display: inline-block;
+}
+nav a{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color:darkgray;
+    font-weight: 700;
+    font-size: 15px;
+    margin: 0px;
+}
+ul li a:hover{
+    color: turquoise;
+
+}
+span{
+    color: red;
+}
+.row {
+    display: flex;
+
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+    
+  }
+  figure{
+      color: red;
+  }
+  .our-team{
+    padding: 20px 10px 30px;
+    background: #fff;
+    border-radius: 30px;
+    text-align: center;
+}
+.our-team .pic{
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    background:aliceblue;
+    padding: 10px;
+    margin-bottom: 25px;
+    transition: all 0.5s ease 0s;
+}
+.our-team:hover .pic{
+    background: #17bebb;
+    border-radius: 50%;
+}
+.pic img{
+    width: 200px;
+    height: 300px;
+    border-radius: 50%;
+}
+.our-team .title{
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: #2e282a;
+    text-transform: uppercase;
+    margin: 0 0 7px 0;
+}
+.our-team .post{
+    display: block;
+    font-size: 15px;
+    color: #17bebb;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.our-team .social{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.our-team .social li{
+    display: inline-block;
+    margin-right: 5px;
+}
+.our-team .social li a{
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    font-size: 15px;
+    color: #17bebb;
+    border: 1px solid #17bebb;
+    transition: all 0.5s ease 0s;
+}
+.our-team:hover .social li a{
+    background: #17bebb;
+    color: #fff;
+}
+.our-team:hover .pic{
+    background: #17bebb;
+    border-radius: 50%;
+}
+.our-team:hover .social li a{
+    background: #17bebb;
+    color: #fff;
+}
+.checked{
+    color: yellow;
+}
+footer{
+    text-align: center;
+}
+
+
+  
+  
